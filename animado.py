@@ -1,3 +1,2 @@
+import matplotlib.pyplot as plt
 import nucleo
-
-redeSpins = nucleo.criaRedeSpins()
