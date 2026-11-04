@@ -37,7 +37,7 @@ for ax in (ax1, ax2):
 
 
 # G1 vmin e vmax garantem que as cores não "buguem" se a rede ficar toda de uma cor só
-im1 = ax1.imshow(rede_inicial, cmap="Spectral")
+im1 = ax1.imshow(rede_inicial, cmap="Spectral", vmin=-1, vmax=1)
 ax1.set_title("Configuração inicial (aleatória)", fontsize=12)
 
 # G2 
