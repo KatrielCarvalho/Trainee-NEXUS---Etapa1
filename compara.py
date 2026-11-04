@@ -28,6 +28,7 @@ print("Cálculos concluídos! Montando a visualização...")
 # Antes VS Depois. Cria uma figura com 2 gráficos lado a lado (1 linha, 2 colunas)
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5))
 
+
 #removendo os números das bordas
 # Configuração visual
 for ax in (ax1, ax2):
