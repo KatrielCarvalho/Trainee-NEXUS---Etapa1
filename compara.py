@@ -41,7 +41,7 @@ im1 = ax1.imshow(rede_inicial, cmap="Spectral", vmin=-1, vmax=1)
 ax1.set_title("Configuração inicial (aleatória)", fontsize=12)
 
 # G2 
-im2 = ax2.imshow(rede_final, cmap="Spectral")
+im2 = ax2.imshow(rede_final, cmap="Spectral", vmin=-1, vmax=1)
 ax2.set_title(f"Depois de {numero_sweeps} sweeps (T = {nucleo.T})", fontsize=12)
 
 
